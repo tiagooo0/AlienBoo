@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  <script src="/style.css"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alien Match</title> 
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body >
+  <nav  class="navbar navbar-expand-lg bg-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">AlienBoo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Criminales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Noticias</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+
+  <!-- CONTENIDOXXXX ANASHI -->
+  <div class="container">
+    <div class="Titulo" >
+      <h1>CredeAlien</h1>
+      <h4>Las credenciales de los aliens mas buscados de la galaxia</h4>
+    </div>
+    <div class="card mb-3 text-bg-light mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div  class="col-md-4">
+        <img id = 'reload'src="https://api.minimalavatars.com/avatar/random/png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h3 id="CardTitle" class="card-title">titulo</h3>
+            <p id="Carddesc"  class="card-text">.</p>
+            <h5 class="card-text">Planeta:</h5>
+            <p id="Cardplanet"  class="card-text">.</p>
+            <a id= "botonGen"href="#" class="btn btn-light "  onclick="randomnum(), textosaludo(),textoplaneta(),image()" > Generar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="a.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
