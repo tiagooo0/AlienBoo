@@ -11,7 +11,7 @@ function textosaludo() {
     let d = document.getElementById("Carddesc").innerHTML = c; 
 }
 function textoplaneta() {
-    let a = ['Vegeta', 'Namek','Marte', 'Desde un agujero negro', 'Frote', 'Azone', 'Ultron', 'Guros', 'Entrop', 'Kirus', 'Nipel', 'Ingre', 'Antee', 'España', 'La bombonera', 'Nipel', 'Luna', 'Kepler 243', 'Omus', 'Perse', 'Mantus']
+    let a = ['Vegeta',"Pizza Planet", 'Namek','Marte', 'Desde un agujero negro', 'Frote', 'Azone', 'Ultron', 'Guros', 'Entrop', 'Kirus', 'Nipel', 'Ingre', 'Antee', 'La bombonera', 'Nipel', 'Luna', 'Kepler 243', 'Omus', 'Perse', 'Mantus']
     let b = Math.floor(Math.random() * a.length);
     let c = a[b];
     let d = document.getElementById("Cardplanet").innerHTML = c; 
